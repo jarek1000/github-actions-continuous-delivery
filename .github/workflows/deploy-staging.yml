@@ -19,7 +19,7 @@ steps:
       - uses: actions/upload-artifact@master
         with:
           name: webpack artifacts
-          path: public/
+          path: public
 
   deploy:
     name: Deploy Node.js app to AWS
